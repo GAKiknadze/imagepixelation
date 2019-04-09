@@ -80,7 +80,7 @@ def createParser():
 	parser = argparse.ArgumentParser()
 	parser.add_argument('--input', type=str)
 	parser.add_argument('--output', type=str)
-	parser.add_argument('--weight', type=int)
+	parser.add_argument('--width', type=int)
 	parser.add_argument('--height', type=int)
 	return parser
 

@@ -88,4 +88,4 @@ def createParser():
 if __name__ == '__main__':
 	parser = createParser()
 	n = parser.parse_args()
-	convert(n.input, n.output, n.weight, n.height)
+	convert(n.input, n.output, n.width, n.height)
